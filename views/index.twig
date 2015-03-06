@@ -1,0 +1,17 @@
+{% extends "base.twig" %}
+
+{% block content %}
+<div class="container">
+    {% for post in posts %}
+    <div class="row">
+        <div class="twelve columns">{% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}</div>
+    </div>
+    {% endfor %}
+    <div class="row">
+        <div class="one-third column">{{widget_mainleft}}</div>
+        <div class="one-third column">{{widget_mainmiddle}}</div>
+        <div class="one-third column">{{widget_mainright}}</div>
+        <hr>
+    </div>
+</div>
+{% endblock %}

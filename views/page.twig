@@ -1,0 +1,19 @@
+{% extends "base.twig" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <article class="u-max-full-width post-type-{{post.post_type}}" id="post-{{post.ID}}">
+                <section class="two-thirds column article-content">
+                    <h1>{{post.title}}</h1>
+                    <div class="article-body">
+                        {{post.content}}
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
