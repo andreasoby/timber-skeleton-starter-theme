@@ -2,7 +2,6 @@
 
 #### Bringing skeleton based grid and Twig to WordPress at full power
 
-======================================================
 
 This theme changes how timber currently works. An [independent Timber plugin](https://wordpress.org/plugins/timber-library/) has been integrated into theme files, making starter theme independent of any plugins. Next step was full timber integration with [Skeleton CSS Boilerplate](http://getskeleton.com), making the whole theme development an easy and fun task!
 
